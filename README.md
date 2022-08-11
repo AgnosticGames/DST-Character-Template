@@ -8,7 +8,7 @@ Follow along with this [YouTube Video](https://www.youtube.com/watch?v=1lu7rP-U1
 ### Steps to take:
 
 1. Download the files and place in either a project directory or the location of the mods for the game
-  - ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods
+   - ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods
 2. Open up "..\modinfo.lua" and update the file
   - name
   - description
