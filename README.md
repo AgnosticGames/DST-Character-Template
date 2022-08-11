@@ -29,21 +29,22 @@ have to worry about any extra .git stuff.
    - author
    - version
    - Search for 'esctemplate' and replace with 'yourcharactername'
-```
-- no spaces
-- all lowercase
-- matchcase
-- all subfolders
-- 66 occurrences
-```
-    - Search for 'ESCTEMPLATE' and replace with 'YOURCHARACTERNAME'
-```
-- no spaces
-- all UPPERCASE
-- matchcase
-- all subfolders
-- 11 occurrences
-```
+      ```
+      - no spaces
+      - all lowercase
+      - matchcase
+      - all subfolders
+      - 66 occurrences
+      ```
+
+   - Search for 'ESCTEMPLATE' and replace with 'YOURCHARACTERNAME'
+      ```
+      - no spaces
+      - all UPPERCASE
+      - matchcase
+      - all subfolders
+      - 11 occurrences
+      ```
 3. Open the `..\modmain.lua` and update the file
    - '-- The character select screen lines' section
    - '-- The character's name as appears in-game' section
