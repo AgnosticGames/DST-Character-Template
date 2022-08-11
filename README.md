@@ -36,7 +36,6 @@ have to worry about any extra .git stuff.
       - all subfolders
       - 66 occurrences
       ```
-
    - Search for 'ESCTEMPLATE' and replace with 'YOURCHARACTERNAME'
       ```
       - no spaces
