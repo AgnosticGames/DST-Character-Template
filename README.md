@@ -59,6 +59,6 @@ have to worry about any extra .git stuff.
 7. Eidt any of the images that you would like to update for your character
 ```
 Do not change the dimenions of the PNG unless you know what you are doing.
-To test your character images out, find the .scml file (..\yourcharactername\exported\yourcharactername), 
+To test your character images out, find the .scml file (..\exported\yourcharactername), 
 right click it, open with, navigate to ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together Mod Tools
 ```
