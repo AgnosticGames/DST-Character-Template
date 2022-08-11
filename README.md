@@ -16,7 +16,7 @@ Follow along with this [YouTube Video](https://www.youtube.com/watch?v=1lu7rP-U1
    - version
    - Search for 'esctemplate' and replace with 'yourcharactername'
 ```
-     - no spaces
+- no spaces
      - all lowercase
      - matchcase
      - all subfolders
