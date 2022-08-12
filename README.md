@@ -4,6 +4,10 @@ Template for starting a Don't Starve Together Character Mod.
 ## **DO NOT OVERWRITE THIS FILE! THIS IS MEANT TO BE A STARTING POINT! COPY TO A NEW REPO FOR YOU OWN START!**
 
 Follow along with this [YouTube Video](https://www.youtube.com/watch?v=1lu7rP-U1Zg&t=523s&ab_channel=BunkaHi)
+[This](http://tylerneylon.com/a/learn-lua/) is also a good source to brush up on LUA programming
+[This](https://www.tutorialspoint.com/execute_lua_online.php) is a nice place to practice LUA programming
+[This](https://forums.kleientertainment.com/forums/topic/116302-ultromans-tutorial-collection-newcomer-intro/) is a great place to start to learn the breakdown of mods
+You can also download other mods and look through them and see how others have created their mods as well.
 ```
 Workflow tip: Once the game runs with a new mod, it will compile all the PNGs into the .tex and .xml files along 
 with creating the .zip folders (the ones that we will be deleting form the template). Once these have been 
@@ -24,6 +28,9 @@ have to worry about any extra .git stuff.
 1. Download the files and place in either a project directory or the location of the mods for the game
    - ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods
 2. Open up `..\modinfo.lua` and update the file
+```
+This is where the main discriptions of the mod and mod options are found/created
+```
    - name
    - description
    - author
@@ -58,7 +65,13 @@ have to worry about any extra .git stuff.
 6. Open up `..\scripts\prefabs\yourcharactername.lua` and edit any of the stats
 7. Eidt any of the images that you would like to update for your character
 ```
-Do not change the dimenions of the PNG unless you know what you are doing.
+Do not change the dimenions of the PNG unless you KNOW what you are doing.
 To test your character images out, find the .scml file (..\exported\yourcharactername), 
-right click it, open with, navigate to ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together Mod Tools
+right click it, open with, navigate to 
+..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together Mod Tools\mod_tools\spriter\spriter.exe
+Do not save anything in this file unless you KNOW what you are doing. This is mostly to test your edits 
+without having to launch the game
 ```
+  - If you want a part of the mod to be 'invisable', navigate to `..\exported\yourcaractername_cleared\folder of part`
+    and copy the images found there. Then navigate to `..\exported\yourcaractername\folder of part` and delete the
+    orignial images and paste the copied ones into that folder. Open the `.scml` file again and see the change
