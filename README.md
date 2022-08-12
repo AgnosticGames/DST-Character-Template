@@ -85,9 +85,8 @@ the mod files that will be pushed to version control and the community mod page.
 starting your mod files because they will share some of the file locations (scripts is the big one). The scripts will not  
 be added to this template due to the version of the game that could be out.  
 
-1. You can use Visual Studio or download IntelliJ IDEA Community + Emmy LUA Plugin
+1. You can use Visual Studio + lua IntelliSense or download IntelliJ IDEA Community + Emmy LUA Plugin
    - Follow along [here](https://dst-api-docs.fandom.com/wiki/Tools)
-   - Visual Studio works, you will need to download a plugin for the lua IntelliSense to work
 2. You will need to grab the `.zip` file from `..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\data\databundles\scripts.zip`
 3. Extract the files in the location where you will be working on your project mod
 4. Download the template files and complete the renaming steps
