@@ -3,12 +3,12 @@ Template for starting a Don't Starve Together Character Mod.
 
 ## **DO NOT OVERWRITE THIS FILE! THIS IS MEANT TO BE A STARTING POINT! COPY TO A NEW REPO FOR YOU OWN START!**
 
-Follow along with this [YouTube Video](https://www.youtube.com/watch?v=1lu7rP-U1Zg&t=523s&ab_channel=BunkaHi)
-[This](http://tylerneylon.com/a/learn-lua/) is also a good source to brush up on LUA programming
-[This](https://www.tutorialspoint.com/execute_lua_online.php) is a nice place to practice LUA programming
-[This](https://forums.kleientertainment.com/forums/topic/116302-ultromans-tutorial-collection-newcomer-intro/) is 
-a great place to start to learn the breakdown of mods
-You can also download other mods and look through them and see how others have created their mods as well.
+Follow along with this [YouTube Video](https://www.youtube.com/watch?v=1lu7rP-U1Zg&t=523s&ab_channel=BunkaHi)  
+[This](http://tylerneylon.com/a/learn-lua/) is also a good source to brush up on LUA programming  
+[This](https://www.tutorialspoint.com/execute_lua_online.php) is a nice place to practice LUA programming  
+[This](https://forums.kleientertainment.com/forums/topic/116302-ultromans-tutorial-collection-newcomer-intro/) is  
+a great place to start to learn the breakdown of mods  
+You can also download other mods and look through them and see how others have created their mods as well.  
 ```
 Workflow tip: Once the game runs with a new mod, it will compile all the PNGs into the .tex and .xml files along 
 with creating the .zip folders (the ones that we will be deleting form the template). Once these have been 
