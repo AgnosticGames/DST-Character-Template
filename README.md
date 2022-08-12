@@ -65,14 +65,14 @@ have to worry about any extra .git stuff.
 5. Open up `..\scripts\speech_yourcharactername.lua` and edit any of the dialog you want here
 6. Open up `..\scripts\prefabs\yourcharactername.lua` and edit any of the stats
 7. Eidt any of the images that you would like to update for your character
-```
-Do not change the dimenions of the PNG unless you KNOW what you are doing.
-To test your character images out, find the .scml file (..\exported\yourcharactername), 
-right click it, open with, navigate to 
-..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together Mod Tools\mod_tools\spriter\spriter.exe
-Do not save anything in this file unless you KNOW what you are doing. This is mostly to test your edits 
-without having to launch the game
-```
+   ```
+   Do not change the dimenions of the PNG unless you KNOW what you are doing.
+   To test your character images out, find the .scml file (..\exported\yourcharactername), 
+   right click it, open with, navigate to 
+   ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together Mod Tools\mod_tools\spriter\spriter.exe
+   Do not save anything in this file unless you KNOW what you are doing. This is mostly to test your edits 
+   without having to launch the game
+   ```
   - If you want a part of the mod to be 'invisable', navigate to `..\exported\yourcaractername_cleared\folder of part`
     and copy the images found there. Then navigate to `..\exported\yourcaractername\folder of part` and delete the
     orignial images and paste the copied ones into that folder. Open the `.scml` file again and see the change
