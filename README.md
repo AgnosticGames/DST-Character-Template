@@ -29,9 +29,9 @@ have to worry about any extra .git stuff.
 1. Download the files and place in either a project directory or the location of the mods for the game
    - ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods
 2. Open up `..\modinfo.lua` and update the file
-```
-This is where the main discriptions of the mod and mod options are found/created
-```
+   ```
+   This is where the main discriptions of the mod and mod options are found/created
+   ```
    - name
    - description
    - author
