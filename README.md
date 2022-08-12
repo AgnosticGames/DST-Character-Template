@@ -6,7 +6,8 @@ Template for starting a Don't Starve Together Character Mod.
 Follow along with this [YouTube Video](https://www.youtube.com/watch?v=1lu7rP-U1Zg&t=523s&ab_channel=BunkaHi)
 [This](http://tylerneylon.com/a/learn-lua/) is also a good source to brush up on LUA programming
 [This](https://www.tutorialspoint.com/execute_lua_online.php) is a nice place to practice LUA programming
-[This](https://forums.kleientertainment.com/forums/topic/116302-ultromans-tutorial-collection-newcomer-intro/) is a great place to start to learn the breakdown of mods
+[This](https://forums.kleientertainment.com/forums/topic/116302-ultromans-tutorial-collection-newcomer-intro/) is 
+a great place to start to learn the breakdown of mods
 You can also download other mods and look through them and see how others have created their mods as well.
 ```
 Workflow tip: Once the game runs with a new mod, it will compile all the PNGs into the .tex and .xml files along 
@@ -21,7 +22,6 @@ created, you will have to go back and delete them should any PNGs change. This c
 I prefer working in a project directory, deleteing old mod folder, and copying new mod folder over because 
 this allows the project directory to have version control and when it comes to "publishing" the mod, you will not 
 have to worry about any extra .git stuff.
-API: 
 ```
 
 ### Steps to take:
@@ -76,3 +76,19 @@ without having to launch the game
   - If you want a part of the mod to be 'invisable', navigate to `..\exported\yourcaractername_cleared\folder of part`
     and copy the images found there. Then navigate to `..\exported\yourcaractername\folder of part` and delete the
     orignial images and paste the copied ones into that folder. Open the `.scml` file again and see the change
+    
+### API
+In order to get an "API" to kinda work as you build your mod, you will have to take a few extra steps. Word of caution:
+this will add a TON of files (3,000+) to your workspace and your repo if you are working with one. This should be set
+up first before starting your mod files because they will share some of the file locations (scripts is the big one)
+
+1. You can use Visual Studio or download IntelliJ IDEA Community + Emmy LUA Plugin
+   - Follow along [here](https://dst-api-docs.fandom.com/wiki/Tools)
+2. You will need to grab the `.zip` file from `..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\data\databundles\scripts.zip`
+3. Extract the files in the location where you will be working on your project mod
+4. Download the template files and complete the renaming steps
+5. Transfer the template files into the project directory where you unzipped the files from Don't Starve Together
+   - These will have a similar directory structure. You will see similar files in the same place. A good one to look 
+   for first is the speech files
+6. You should now have it set up where you can use an intelliSense to help auto fill names and look at the files they 
+are from to learn how they are used
