@@ -73,9 +73,9 @@ have to worry about any extra .git stuff.
    Do not save anything in this file unless you KNOW what you are doing. This is mostly to test your edits 
    without having to launch the game
    ```
-  - If you want a part of the mod to be 'invisable', navigate to `..\exported\yourcaractername_cleared\folder of part`
-    and copy the images found there. Then navigate to `..\exported\yourcaractername\folder of part` and delete the
-    orignial images and paste the copied ones into that folder. Open the `.scml` file again and see the change
+   - If you want a part of the mod to be 'invisable', navigate to `..\exported\yourcaractername_cleared\folder of part`
+   and copy the images found there. Then navigate to `..\exported\yourcaractername\folder of part` and delete the
+   orignial images and paste the copied ones into that folder. Open the `.scml` file again and see the change
     
 ### API
 In order to get an "API" to kinda work as you build your mod, you will have to take a few extra steps. Word of caution:
