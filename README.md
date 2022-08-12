@@ -21,6 +21,7 @@ created, you will have to go back and delete them should any PNGs change. This c
 I prefer working in a project directory, deleteing old mod folder, and copying new mod folder over because 
 this allows the project directory to have version control and when it comes to "publishing" the mod, you will not 
 have to worry about any extra .git stuff.
+API: 
 ```
 
 ### Steps to take:
