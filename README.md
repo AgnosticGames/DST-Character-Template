@@ -78,13 +78,16 @@ have to worry about any extra .git stuff.
     
 ### API
 In order to get an "API" to kinda work as you build your mod, you will have to take a few extra steps. Word of caution:  
-this will add a TON of files (3,000+) to your workspace and your repo if you are working with one. This should be set  
-up first before starting your mod files because they will share some of the file locations (scripts is the big one). The  
-scripts will not be added to this template due to the version of the game that could be out.  
+this will add a TON of files (3,000+) to your workspace and your repo if you are working with one. Keeping track of all  
+of your mod files will become very difficult. A possible recommendation is to make two seperate project directory. One  
+that holds all of the game scripts and mod files that will be written over multiple times and one that will only hold  
+the mod files that will be pushed to version control and the community mod page. This should be set up first before  
+starting your mod files because they will share some of the file locations (scripts is the big one). The scripts will not  
+be added to this template due to the version of the game that could be out.  
 
 1. You can use Visual Studio or download IntelliJ IDEA Community + Emmy LUA Plugin
    - Follow along [here](https://dst-api-docs.fandom.com/wiki/Tools)
-   - Visual Studio works, you may need to download a plugin for the lua IntelliSense
+   - Visual Studio works, you will need to download a plugin for the lua IntelliSense to work
 2. You will need to grab the `.zip` file from `..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\data\databundles\scripts.zip`
 3. Extract the files in the location where you will be working on your project mod
 4. Download the template files and complete the renaming steps
