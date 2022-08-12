@@ -84,11 +84,12 @@ up first before starting your mod files because they will share some of the file
 
 1. You can use Visual Studio or download IntelliJ IDEA Community + Emmy LUA Plugin
    - Follow along [here](https://dst-api-docs.fandom.com/wiki/Tools)
+   - Visual Studio works, you may need to download a plugin for the lua IntelliSense
 2. You will need to grab the `.zip` file from `..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\data\databundles\scripts.zip`
 3. Extract the files in the location where you will be working on your project mod
 4. Download the template files and complete the renaming steps
 5. Transfer the template files into the project directory where you unzipped the files from Don't Starve Together
    - These will have a similar directory structure. You will see similar files in the same place. A good one to look 
    for first is the speech files
-6. You should now have it set up where you can use an intelliSense to help auto fill names and look at the files they 
+6. You should now have it set up where you can use an IntelliSense to help auto fill names and look at the files they 
 are from to learn how they are used
