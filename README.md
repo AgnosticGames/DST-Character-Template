@@ -7,7 +7,9 @@ Follow along with this [YouTube Video](https://www.youtube.com/watch?v=1lu7rP-U1
 [This](https://www.lua.org/start.html) is a good place to learn LUA from the beginning  
 [This](http://tylerneylon.com/a/learn-lua/) is also a good source to brush up on LUA programming  
 [This](https://www.tutorialspoint.com/execute_lua_online.php) is a nice place to practice LUA programming  
-[This](https://forums.kleientertainment.com/forums/topic/116302-ultromans-tutorial-collection-newcomer-intro/) is a great place to start to learn the breakdown of mods  
+[This](https://forums.kleientertainment.com/forums/topic/116302-ultromans-tutorial-collection-newcomer-intro/) is a great place to start to learn the breakdown of mods
+[This](https://forums.kleientertainment.com/forums/topic/128108-where-are-mods-stored-now/) is where to find the API V2 mods
+
 You can also download other mods and look through them and see how others have created their mods as well.  
 ```
 Workflow tip: Once the game runs with a new mod, it will compile all the PNGs into the .tex and .xml files along 
@@ -28,6 +30,7 @@ have to worry about any extra .git stuff.
 
 1. Download the files and place in either a project directory or the location of the mods for the game
    - ..\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\mods
+   - ..\Program Files (x86)\Steam\steamapps\workshop\content\322330\  <- NEW V2 LOCATION FOR WORKSHOP FILES
 2. Open up `..\modinfo.lua` and update the file
    ```
    This is where the main discriptions of the mod and mod options are found/created
